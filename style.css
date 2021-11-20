@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background: #222222;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+
+.slide {
+    position: relative;
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+}
+
+.slide-1 {
+    background-image: url(img/sydney.jpg);
+}
+
+.slide-2 {
+    background-image: url(img/chicago.jpg);
+}
+
+.slide-3 {
+    background-image: url(img/tokyo.jpg);
+}
+
+.slide-4 {
+    background-image: url(img/venice.jpg);
+}
+
+.slide-5 {
+    background-image: url(img/kuala-lumpur.jpg);
+}
+
+.slide--active {
+    flex-grow: 10;
+}
+
+.slide h3 {
+    position: absolute;
+    font-size: 24px;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0;
+}
+
+.slide--active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
