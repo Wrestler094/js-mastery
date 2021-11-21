@@ -5,4 +5,7 @@
 2. [Drag & Drop](https://wrestler094.github.io/js-mastery/Marathon_of_Vladilen/Project_2/index.html)
 3. [Full-screen Gallery](https://wrestler094.github.io/js-mastery/Marathon_of_Vladilen/Project_3/index.html)
 4. 
-5. 
+
+## JavaScript30 challenge
+1. [Drum Kit](https://wrestler094.github.io/js-mastery/JavaScript30/Project-1_Drum-kit/index.html)
+2.
